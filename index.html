@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>виселица</title>
+</head>
+
+<body>
+    <div class="modal">
+        <form action="">
+            <h3>Введи свое слово</h3>
+            <input type="text" placeholder="вот тут вводи" id="wordinput">
+            <button type="button" id="but">ok</button>
+        </form>
+    </div>
+    <div class="modal">
+        <form action="">
+            <h3>Настройки</h3>
+            <button type="button" id="solobut">classic</button>
+            <button type="button" id="multik">multi</button>
+        </form>
+    </div>
+    <form action="">
+        <h1>виселица</h1>
+        <img src="hangman0.png" alt="">
+        <h2>**********</h2>
+        <input type="text" maxlength="1" placeholder="?" id="input">
+        <button id="checkButton">Проверить букву</button>
+        <button type="button" id="newgame">Новая игра</button>
+        <button id="settings">Настройки</button>
+        <p>Правила игры: <br> вводи букву и собирай слово пока тебя не собрали</p>
+    </form>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
